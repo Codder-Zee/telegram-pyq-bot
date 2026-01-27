@@ -3,7 +3,7 @@ import requests, os, random
 BOT_TOKEN = os.getenv("BOT_TOKEN")
 CHANNEL_ID = os.getenv("CHANNEL_ID")
 
-FILE = "pyq_data/marathi.txt"
+FILE = "pyq_data/pyq.txt"
 BATCH_SIZE = int(os.getenv("BATCH_SIZE", "1"))  # eg. 10 morning / 10 evening
 
 
