@@ -3,7 +3,7 @@ import requests, os, json, hashlib, subprocess
 BOT_TOKEN = os.getenv("BOT_TOKEN")
 CHANNEL_ID = os.getenv("CHANNEL_ID")
 
-FILE = "pyq_data/marathi.txt"
+FILE = "pyq_data/pyq.txt"
 STATE_FILE = "state.json"
 BATCH_SIZE = int(os.getenv("BATCH_SIZE", "1"))
 
